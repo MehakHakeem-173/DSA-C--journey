@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void Pattern1(int N){
+void Pattern1(int N){ //this function is for a square pattern
     for(int i=0;i<N;i++){ //outer loop for rows
         for(int j=0;j<N;j++){ //inner loop fpr columns
             cout<<"*"<<"."; 
