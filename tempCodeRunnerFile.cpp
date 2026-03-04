@@ -34,7 +34,7 @@ public:
 int main(){
 Solution obj;
 //giving input
-int num = 12345;
+int num = -12345;
 //taking output
 cout<< obj.reverseNumber(num) << endl;
 return 0;
