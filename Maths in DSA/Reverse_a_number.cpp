@@ -8,8 +8,7 @@ class Solution {
 public:
     // Function to reverse digits of a number
     int reverseNumber(int n) {
-        // Variable to store reversed number
-        int revNum = 0;
+        // Variable to store revers
 
         // Loop until all digits are processed
         while (n > 0) {
