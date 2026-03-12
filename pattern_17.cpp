@@ -16,7 +16,7 @@ void pattern17(int N){
         //mid point of the row = (2*i+1)/2
         int breakpoint = (2*i+1)/2;
         //inner loop for for characters
-        for(int j=1;j<=2*i+1;j++){
+        for(int j=0;j<2*i+1;j++){
             cout<<ch;
             //increment and decrement of characters
             if(j<=breakpoint){
