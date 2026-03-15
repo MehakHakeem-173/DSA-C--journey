@@ -16,7 +16,7 @@ class ArmstrongChecker{
             //getting the last digit
          int ld = n % 10;
          //add the ld^k to sum
-         sum += (int)pow(ld , k);
+         sum += pow(ld , k);
          //update the number
          n = n / 10;
         }
@@ -29,7 +29,7 @@ class ArmstrongChecker{
 
 int main(){
     //enter the number to ckeck
-    int number = 153;
+    int number = 371;
     //use class method to check 
     if(ArmstrongChecker :: isArmstrong(number)){
         //if the number matches the numbr is armstrong
