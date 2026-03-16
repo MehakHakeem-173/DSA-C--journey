@@ -2,7 +2,7 @@
 using namespace std;
 
 bool checkPrime(int N){
-    //variable for storing the number of divisiles
+    //variable for storing the number of divisibles
     int cnt = 0;
 
     //loop for checking the number of divisibles
@@ -18,6 +18,7 @@ bool checkPrime(int N){
         return true;
     }
     else{
+        //the number is not prime
         return false;
     }
 }
