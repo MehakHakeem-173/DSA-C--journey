@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//forward recursion print numbers in ascending order
-//forward recursion first print the number then call the recursive function
+//backtracking recursion print numbers in decending order
+//backtracking call the functions all the times at has to and the print the numbers 
 class Solution{
     public:
     //function for printing the number
@@ -11,12 +11,13 @@ class Solution{
         if (current > n){
             return;
         }
-        
+
+        //calling the function before printing the number
+        printNumbers(current +1, n);
+
         //printing the numbers
         cout << current << " ";
 
-        //calling the function back
-        printNumbers(current +1, n);
     }
 };
 
