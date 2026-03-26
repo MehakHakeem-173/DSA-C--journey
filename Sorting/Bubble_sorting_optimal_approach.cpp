@@ -17,6 +17,8 @@ class BubbleSort{
                 didSwap = 1;
             }
         }
+
+        //if no swap occurs in first go, break out the for loop cuz the zrrzy is already sorted
             if(didSwap == 0){
                 break;
             }
