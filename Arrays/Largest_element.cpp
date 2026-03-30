@@ -6,6 +6,7 @@ using namespace std;
 int sortArr(vector<int>& arr){
 
     //sorting the array for getting the largest element
+    //this method happens in <algorithm> for vectors
     sort(arr.begin(), arr.end());
 
     //returning the largest element
