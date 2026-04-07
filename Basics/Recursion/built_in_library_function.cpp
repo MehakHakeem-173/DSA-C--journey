@@ -3,24 +3,16 @@ using namespace std;
 
 class Solution{
     public:
-    //function for reversing the array
-    vector<int> reverseArray(vector<int>& arr){
-        //veriable to assign the values for swapping
-        int p1 = 0;
-        int p2 = arr.size()-1;
+    //functionfor reversing the array
+    void reverseArray(vector<int>& arr){
 
-        //swapping the values
-        while(p1 < p2){
-            swap(arr[p1] , arr[p2]);
-
-            //increment and decrementing the veriables
-            p1++;
-            p2--;
-        }
+        //use STL revers to reverse array
+        reverse(arr.begin(), arr.end());
     }
 };
 
 int main(){
+    
     Solution sol;
 
     //array before reversing
@@ -37,4 +29,5 @@ int main(){
     cout << "array after reversing: " << endl;
     for (int num : arr) 
     cout << num << " ";
+
 }
