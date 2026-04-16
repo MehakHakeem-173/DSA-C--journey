@@ -20,10 +20,12 @@ int main() {
 
     int q;
 
-    cout << "enter the number of elements you want to find in the array" << endl;
+    cout << "enter the number of elements you want to find the frequency for" << endl;
     cin >> q;
     while(q--){
         int number;
+        cout << "enter the elements" << endl;
+        cout << endl;
         cin >> number;
         cout << hash[number] << endl;
     }
