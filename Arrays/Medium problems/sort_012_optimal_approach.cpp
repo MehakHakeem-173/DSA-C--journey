@@ -26,8 +26,8 @@ class Solution{
 };
 
 int main(){
-    //vector<int> arr = {1, 2, 0, 0, 2, 1, 0, 2};
-    vector<int> arr = {2, 0, 2, 1, 1, 0};
+    vector<int> arr = {1, 2, 0, 0, 2, 1, 0, 2};
+    
     Solution sol;
     sol.sortZeroOneTwo(arr);
     for(int x : arr){
