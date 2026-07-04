@@ -20,7 +20,7 @@ class Solution{
 }; 
 
 int main(){
-    vector<int> arr = {1, 4, 2, 4, 3, 4, 4};
+    vector<int> arr = {1, 4, 2, 4, 3, 4, 5, 4};
     Solution sol;
     int ans = sol.findMajority(arr);
     cout << "the majority element in the array is " << ans << endl;
