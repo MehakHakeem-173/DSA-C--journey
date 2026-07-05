@@ -12,9 +12,8 @@ class Solution{
             int sum = 0;
             for(int j=i; j<n; j++){
                 sum += arr[j];
+                 maxi = max(sum, maxi);
             }
-
-            maxi = max(sum, maxi);
         }
         return maxi;
     }
