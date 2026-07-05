@@ -6,6 +6,7 @@ class Solution{
     int findMajority(vector<int> arr){
         int n = arr.size();
 
+        //the Moore's voting algorithm
         int count = 0; 
         int ele;
         for(int i=0; i<n; i++){
@@ -21,6 +22,8 @@ class Solution{
             }
         }
 
+        //so this code actually decrement the count everytime another element come
+        // so in the end when all get cancelled the majority remains cuz its greater then half the array
         int cnt1 = 0;
         for(int i=0; i<n; i++){
             if(arr[i] == ele){
