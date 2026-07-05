@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//this prolem is about finding the sum of all the elemnts of all the subarrays possible and then retur the largest one
 class Solution{
     public:
     int findMaxSubarray(vector<int> arr){
