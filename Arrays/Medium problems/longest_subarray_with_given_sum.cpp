@@ -27,10 +27,10 @@ class Solution{
 
 int main(){
     vector<int> arr = {-1, 1, 1};
-    int a = 2;
+    int a = -1;
     Solution sol;
     int ans = sol.findLongestSubarray(a, arr);
 
-    cout << "the lingest subarray is: " << ans << endl;
+    cout << "the longest subarray is: " << ans << endl;
     return 0;
 }
