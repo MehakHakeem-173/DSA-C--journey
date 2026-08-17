@@ -38,6 +38,6 @@ int main (){
     Node* head = new Node(arr[0]);
 
     //print node address and value
-    cout << head << endl;
+    //cout << head << endl;
     cout << head->data << endl;
 }
