@@ -4,13 +4,13 @@ using namespace std;
 class Solution{
 
     private:
-    int findNumber(vector<int> arr, int low, int high, int target){
+    int findNumber(vector<int>& arr, int low, int high, int target){
         if(low > high) return -1;
 
         int mid = (high + low)/2; 
         if(arr[mid] == target) return mid;
 
-        else if(mid < target){
+        else if(arr[mid] < target){
             findNumber(arr, mid+1, high, target);
         }
 
