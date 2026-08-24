@@ -11,6 +11,8 @@ class Solution{
         int high = n - 1;
         
         while(low <= high){
+
+            //do as low + (high - low)/2 , without that low at biginning, this will go out of range
             int mid = low + (high - low)/2;
             if(arr[mid] == target) return mid;
 
