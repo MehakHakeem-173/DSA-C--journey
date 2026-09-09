@@ -3,6 +3,14 @@ using namespace std;
 
 class Solution{
     public:
+
+    /*just see if the right to mid is lesser, if yes->
+    go to the left side, no matter how long does it go
+    on increasing and choose the left side all the time,
+    the first index will end up the peak but 
+    if it go on the right side is greater then 
+    it will still eaither end up to the end 
+    or either go to left at some point*/ 
     int peakIndex(vector<int> arr){
         int n = arr.size();
         int low = 0;
