@@ -9,7 +9,9 @@ class Solution{
 
         while(low <= high){
             int mid = (low + high) / 2;
+
             long long ans = 1;
+
             for(int i=0; i<n; i++){
                 ans *= mid;
                 if(ans > m) break;
@@ -20,6 +22,7 @@ class Solution{
             if(ans < m){
                 low = mid + 1;
             }
+
             else{
                 high = mid - 1;
             }
@@ -35,5 +38,5 @@ int main(){
 
     Solution sol;
     int root = sol.findNthRoot(n, m);
-    cout << "the " << n << " root of the number " << m << "is " << root;
+    cout << "the " << n << " root of the number " << m << " is " << root;
 }
