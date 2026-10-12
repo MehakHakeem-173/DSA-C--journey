@@ -22,7 +22,7 @@ class Solution{
 
         for(int i=1; i<=maxi; i++){
             if(ceilDivision(arr, i, m)){
-                return i;
+                return i ;
             }
         }
 
