@@ -4,8 +4,14 @@ using namespace std;
 class Solution{
     private:
     int isPossible(vector<int> arr, int mid, int h){
+
+        //vveriable to store the used hours in
         long long hours = 0;
+
+        //counting hte hours
         for(int pile : arr){
+
+            //time formula, we use mid-1 to round it up
             hours += (pile + mid - 1) / mid;
 
             if(hours > h){
